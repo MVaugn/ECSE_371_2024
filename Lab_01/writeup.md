@@ -250,5 +250,4 @@ _Adding a second stage helps remove any high frequency unwanted noise from the i
 **Be sure that the current limit on your bench power supply is set to maximum.  Why?**  
 _Set the current limit to maximum bc the transient current at the spike of the lamp will further emphasize the spike able to be used for the timing circuit._
 
-Schematic image here
-\* keep the breadboard and circuit working for recitation!
+Figure [x]: Schematic
