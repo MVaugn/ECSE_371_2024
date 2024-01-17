@@ -226,5 +226,4 @@ Try adding an integrator stage to improve the sine wave quality.  Keep the load 
 
 Be sure that the current limit on your bench power supply is set to maximum.  Why? *Set the current limit to maximum bc the transient current at the spike of the lamp will further emphasize the spike able to be used for the timing circuit.*
 
-Schematic image here
-\* keep the breadboard and circuit working for recitation!
+Figure [x]: Schematic
