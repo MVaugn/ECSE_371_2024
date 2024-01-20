@@ -4,9 +4,32 @@
 
   (paper "A4")
 
+  (title_block
+    (date "2024-01-19")
+    (rev "0")
+    (company "Jim Horwitz & Mark Vaughn, Jork Incorporated")
+  )
+
   (lib_symbols
   )
 
+
+  (sheet (at 38.1 99.06) (size 77.47 52.07) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 07e6c46f-635f-421c-8ccf-3318813d28b5)
+    (property "Sheetname" "Problem 7" (at 38.1 98.3484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Lab01_P07.kicad_sch" (at 38.1 151.7146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Lab01"
+        (path "/f5e37932-d66b-45bd-afc2-f24a1a74700d" (page "4"))
+      )
+    )
+  )
 
   (sheet (at 38.1 31.75) (size 77.47 46.99) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
@@ -21,6 +44,23 @@
     (instances
       (project "Lab01"
         (path "/f5e37932-d66b-45bd-afc2-f24a1a74700d" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 156.21 31.75) (size 82.55 46.99) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a7212887-31d4-4a0f-8ef1-81d83172cc65)
+    (property "Sheetname" "Problem 6" (at 156.21 31.0384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Lab01_P06.kicad_sch" (at 156.21 79.3246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Lab01"
+        (path "/f5e37932-d66b-45bd-afc2-f24a1a74700d" (page "3"))
       )
     )
   )

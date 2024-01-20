@@ -222,17 +222,17 @@
     (uuid 3e539808-bbb3-4a5a-910d-b8da1a72a15f)
   )
 
-  (global_label "Vcc" (shape output) (at 41.91 48.26 90) (fields_autoplaced)
+  (global_label "Vcc5" (shape output) (at 41.91 48.26 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 1679f3f0-1924-4b2d-80d7-52bb4a9987a3)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 41.91 42.0884 90)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 41.91 40.8789 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "Vcc" (shape input) (at 67.31 39.37 180) (fields_autoplaced)
+  (global_label "Vcc5" (shape input) (at 67.31 39.37 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 424d1561-6c5c-475d-82e5-b069339e4174)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 61.1384 39.37 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 59.9289 39.37 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -240,7 +240,7 @@
   (symbol (lib_id "Simulation_SPICE:VDC") (at 41.91 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1c974191-a287-418f-b857-166031afbfe9)
-    (property "Reference" "V_SUPPLY1" (at 29.21 54.61 0)
+    (property "Reference" "V_SUPPLY1" (at 31.75 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "24" (at 34.29 57.15 0)
@@ -271,7 +271,7 @@
       )
       (project "Lab01"
         (path "/f5e37932-d66b-45bd-afc2-f24a1a74700d/4efdc02f-e125-44e1-b96d-4aab0a060814"
-          (reference "V_SUPPLY1") (unit 1)
+          (reference "VDC51") (unit 1)
         )
       )
     )
@@ -280,7 +280,7 @@
   (symbol (lib_id "Device:R") (at 120.65 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 265b631f-e2e7-4dce-a672-b6daeffb40c5)
-    (property "Reference" "R3" (at 123.19 50.8 0)
+    (property "Reference" "R53" (at 123.19 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1000" (at 123.19 53.34 0)
@@ -297,7 +297,7 @@
     (instances
       (project "Lab01"
         (path "/f5e37932-d66b-45bd-afc2-f24a1a74700d/4efdc02f-e125-44e1-b96d-4aab0a060814"
-          (reference "R3") (unit 1)
+          (reference "R53") (unit 1)
         )
       )
     )
@@ -358,7 +358,7 @@
       )
       (project "Lab01"
         (path "/f5e37932-d66b-45bd-afc2-f24a1a74700d/4efdc02f-e125-44e1-b96d-4aab0a060814"
-          (reference "R1") (unit 1)
+          (reference "R51") (unit 1)
         )
       )
     )
@@ -389,7 +389,7 @@
       )
       (project "Lab01"
         (path "/f5e37932-d66b-45bd-afc2-f24a1a74700d/4efdc02f-e125-44e1-b96d-4aab0a060814"
-          (reference "R2") (unit 1)
+          (reference "R52") (unit 1)
         )
       )
     )
