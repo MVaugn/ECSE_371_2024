@@ -1,0 +1,16 @@
+.title KiCad schematic
+.save all
+.probe alli
+.tran 10p 150n
+.control
+run
+rusage
+set filetype=ascii
+write C:\Users\v_mar\Documents\GitHub\ECSE_371_2024\Lab_01\prob5.out "/in" "/out"
+plot "/in" "/out"
+.endc
+R1 NC-R1-0 NC-R1-1 220
+RLOAD1 NC-RLOAD1-0 NC-RLOAD1-1 1000
+V_SUPPLY1 NC-V_SUPPLY1-0 NC-V_SUPPLY1-1 DC 24 
+R2 NC-R2-0 NC-R2-1 180
+.end
