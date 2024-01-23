@@ -14,51 +14,76 @@ _The built in voltmeter & ammeter cannot both be accurate. From the answers to t
 ## Q2a ##
 
 **5 two-wire resistance readings for a 0.12 Ohm, 5% resistor:**  
-_[1.00000, 2.00000, 3.00000, 4.00000, 5.00000]_  
+_[1.100, 2.798, 3.3, 1.3, 1.5]_ $\Omega$ 
+
 **What do you observe, and what is causing the variation in the readings?**  
-_GREAT QUESTION, LARRY!_  
+_There is a large variation in the measurements we received. Each time we plug in the cable, a different contact occurs leading to a different voltage drop and different output resistance._  
 
 ## Q2b ##
 
 **5 four-wire resistance readings for a 0.12 Ohm, 5% resistor:**  
-_[1.00000, 2.00000, 3.00000, 4.00000, 5.00000]_  
+_[0.26, 0.30, 0.26, 0.20, 0.18]_
+
 **How do the results in 2(a) and 2(b) compare?**  
-_GREAT QUESTION, LARRY!_  
+2b is significantly more accurate and precise than 2a
+
 **Which technique is better and why?**  
-_GREAT QUESTION, LARRY!_  
+2b is better as it is more precise and accurate.
+
 **What is the concept behind four-wire measurement, and what problem does it overcome?**  
-_GREAT QUESTION, LARRY!_  
+4-wire measurements overcome the additive resistance in the cables connecting the resistance to be measured to the DMM. It does so by separating the current source leads from the voltage measurement leads. Since the cables connecting the sense wire aren't sourcing or sinking any current, there is no voltage drop across the cables which leads to a more accurate measurement.
+
+**Define "Repeatability" and "Resolution":**  
+_"Repeatability" is a measurement of how easy it is to replicate results. Resolution is the scale at which the results can be measured, (eg bitrate)_  
+
+
 **Define "precision" and "accuracy":**  
 _"Precision" is a description of the resolution or exactness of a measurement. In the case of our Hewlett Packard bench DMM, the precision of any measurement is 6 1/2 digits (assuming a stable reading). "Accuracy," on the other hand, describes how close a measurement is to a standardized or agreed-upon "correct" value._  
 
 ## Q3a ##
 
 **Prepare a graph of the I-V forward characteristics of a 1N4148 diode. Include a fixed series resistor to provide current limiting and adjustment.**  
+R = $9.76 \Omega$
 _See Figure [x]_  
 **How many significant digits do you think it is appropriate to record?**  
-_GREAT QUESTION, LARRY!_  
+_The diode has a max forward voltage of 1V, so a precision of 2 decimal places is appropriate to record._  
 **What would be an appropriate current range to graph?**  
-_GREAT QUESTION, LARRY! WE'LL HAVE TO GOOGLE THE DATASHEET!_  
+_looking at the datasheet, the absoluate average current rating is 150mA, so a range of 0-150mA would suffice_  
 **Determine the series resistance of the diode.**  
 _GREAT QUESTION, LARRY! AS A FUNCTION OF VOLTAGE?_  
 
 ## Q3b ##
 
-**Measure and record the internal resistance of a AA battery:**  
-_[1.00000, 2.00000, 3.00000, 4.00000, 5.00000]_  
-**Repeat these measurements for a AAA battery:**  
-_[1.00000, 2.00000, 3.00000, 4.00000, 5.00000]_  
+**Measure and record the internal resistance of a AA battery:** 
+AA 1 
+OC Voltage of 1.42V
+1V across $1 \Omega$ resistor
+ISR of $0.42\Omega$
+
+
+AA 2
+OC Voltage 1.44V
+1.04V across $1 \Omega$
+ISR of $0.4 \Omega$
+
 **How do you think the internal resistance of a battery relates to its physical size, output current capability, capacity, and state-of-charge?**  
-_GREAT QUESTION, LARRY!_  
+The larger the path for current to flow (ie larger battery size), the lower internal series resistance, higher output current, and higher capacity the battery will have. The larger the size of the battery will also make state-of-charge decrease slower.
+
 **How do you think the internal resistance of a 9 V transistor-radio battery would compare to that of the AAA and AA batteries?**  
-_GREAT QUESTION, LARRY!_  
+_9V batteries are larger, and therefore have more conductive plates to source current from. Therefore, 9Vs have a higher output current and lower internal resistance than the AAA/AA counterparts._  
 
 ## Q3c ##
 
 **A flashlight with a PR-6 incandescent lamp would use two AA cells in series. However, the PR-6 lamp is rated at 2.47 volts, not 3.0V. Why?**  
-_As the AA cells source current, their voltage decreases._
+_As the AA cells source current, the ISR of the AAs will drop the addition 0.53 volts necessary to efficiently power the PR-6 lamp._
 
 ## Q4 ##
+
+Powered by 20VDC bench supply,
+
+20 - 14 = 6V across resistor
+3.8W -> 270 mA through resistor
+R = 22 $\Omega$ -> 22 $\Omega$
 
 **Provide the lamp-current waveform when voltage is first applied:**  
 _See Figure [x]_  
@@ -67,13 +92,15 @@ _See Figure [x]_
 **What is the source for the trigger signal?**  
 _GREAT QUESTION, LARRY!_  
 **Record the rise time of the current waveform:**  
-_[1.00000, 2.00000, 3.00000, 4.00000, 5.00000]_  
+300ms  
+
+
 **What lamp characteristic causes the current waveform to take this shape?**  
-_GREAT QUESTION, LARRY!_  
+_when the filament in the lamp heats up, it increases in resistance, causing less current to flow through_  
 **Calculate the required power rating of the resistor for continuous, steady-state operation.**  
-_GREAT QUESTION, LARRY!_  
+_270mA through resistor, 6V drop means a power of 1.65W._  
 **In your circuit, what is the resistor's maximum instantaneous power dissipation and when does it occur? Do you think the resistor you have chosen would provide reliable long-term operation?**  
-_GREAT QUESTION, LARRY!_  
+_Instantaneous power dissipation occurs right when power is applied, where the resistor sees ~15V instead of 6V with an power rating of 4.05W. The resistor weve chosen will not provide reliable long-term operation._ 
 
 ## Q5 ##
 
