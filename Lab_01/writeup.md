@@ -14,7 +14,7 @@ _The built in voltmeter & ammeter cannot both be accurate. From the answers to t
 ## Q2a ##
 
 **5 two-wire resistance readings for a 0.12 Ohm, 5% resistor:**  
-_[1.100, 2.798, 3.3, 1.3, 1.5]_ $\Omega$ 
+_[1.1, 2.8, 3.3, 1.3, 1.5]_ $\Omega$ 
 
 **What do you observe, and what is causing the variation in the readings?**  
 _There is a large variation in the measurements we received. Each time we plug in the cable, a different contact occurs leading to a different voltage drop and different output resistance._  
@@ -25,13 +25,13 @@ _There is a large variation in the measurements we received. Each time we plug i
 _[0.26, 0.30, 0.26, 0.20, 0.18]_
 
 **How do the results in 2(a) and 2(b) compare?**  
-2b is significantly more accurate and precise than 2a
+_2b is significantly more accurate than 2a_
 
 **Which technique is better and why?**  
-2b is better as it is more precise and accurate.
+_4-wire is better as it is more accurate._
 
 **What is the concept behind four-wire measurement, and what problem does it overcome?**  
-4-wire measurements overcome the additive resistance in the cables connecting the resistance to be measured to the DMM. It does so by separating the current source leads from the voltage measurement leads. Since the cables connecting the sense wire aren't sourcing or sinking any current, there is no voltage drop across the cables which leads to a more accurate measurement.
+_4-wire measurements overcome the additive resistance in the cables connecting the resistance to be measured to the DMM. It does so by separating the current source leads from the voltage measurement leads. Since the cables connecting the sense wire aren't sourcing or sinking any current, there is no voltage drop across the cables which leads to a more accurate measurement._
 
 **Define "Repeatability" and "Resolution":**  
 _"Repeatability" is a measurement of how easy it is to replicate results. Resolution is the scale at which the results can be measured, (eg bitrate)_  
@@ -54,35 +54,34 @@ _GREAT QUESTION, LARRY! AS A FUNCTION OF VOLTAGE?_
 
 ## Q3b ##
 
-**Measure and record the internal resistance of a AA battery:** 
-AA 1 
-OC Voltage of 1.42V
-1V across $1 \Omega$ resistor
-ISR of $0.42\Omega$
+**Measure and record the internal resistance of a AA battery:**  
+_**AA 1:**_  
+Open Circuit (OC) Voltage of 1.42V  
+1V across $1 \Omega$ resistor  
+Internal Series Resistance (ISR) of $0.42\Omega$
 
-
-AA 2
-OC Voltage 1.44V
-1.04V across $1 \Omega$
-ISR of $0.4 \Omega$
+_**AA 2:**_  
+OC Voltage 1.44V  
+1.04V across $1 \Omega$  
+ISR of $0.4 \Omega$  
 
 **How do you think the internal resistance of a battery relates to its physical size, output current capability, capacity, and state-of-charge?**  
-The larger the path for current to flow (ie larger battery size), the lower internal series resistance, higher output current, and higher capacity the battery will have. The larger the size of the battery will also make state-of-charge decrease slower.
+_The larger the path for charge carriers to flow (i.e. larger cell size), the lower internal series resistance, higher output current, and higher capacity the battery will have. The larger the size of the battery will also make state-of-charge decrease slower._
 
 **How do you think the internal resistance of a 9 V transistor-radio battery would compare to that of the AAA and AA batteries?**  
-_9V batteries are larger, and therefore have more conductive plates to source current from. Therefore, 9Vs have a higher output current and lower internal resistance than the AAA/AA counterparts._  
+_9V batteries are larger, but are constructed of 6 smaller LR61 cells in series. Therefore, 9Vs have a lower output current and greater internal resistance than the AAA/AA counterparts._  
 
 ## Q3c ##
 
 **A flashlight with a PR-6 incandescent lamp would use two AA cells in series. However, the PR-6 lamp is rated at 2.47 volts, not 3.0V. Why?**  
-_As the AA cells source current, the ISR of the AAs will drop the addition 0.53 volts necessary to efficiently power the PR-6 lamp._
+_As the AA cells source current, the ISR of the AAs will drop the additional 0.53 volts necessary to efficiently power the PR-6 lamp._
 
 ## Q4 ##
 
 Powered by 20VDC bench supply,
 
-20 - 14 = 6V across resistor
-3.8W -> 270 mA through resistor
+20 - 14 = 6V across resistor  
+3.8W -> 270 mA through resistor  
 R = 22 $\Omega$ -> 22 $\Omega$
 
 **Provide the lamp-current waveform when voltage is first applied:**  
@@ -100,7 +99,7 @@ _when the filament in the lamp heats up, it increases in resistance, causing les
 **Calculate the required power rating of the resistor for continuous, steady-state operation.**  
 _270mA through resistor, 6V drop means a power of 1.65W._  
 **In your circuit, what is the resistor's maximum instantaneous power dissipation and when does it occur? Do you think the resistor you have chosen would provide reliable long-term operation?**  
-_Instantaneous power dissipation occurs right when power is applied, where the resistor sees ~15V instead of 6V with an power rating of 4.05W. The resistor weve chosen will not provide reliable long-term operation._ 
+_Instantaneous power dissipation occurs right when power is applied, where the resistor sees 15V instead of 6V and dissapates 4W. The resistor we've chosen will not provide reliable long-term operation._ 
 
 ## Q5 ##
 
