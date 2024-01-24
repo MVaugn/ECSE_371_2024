@@ -254,7 +254,7 @@
     (uuid c3580125-5c6c-40d3-85af-2140fcdbc6e6)
   )
 
-  (text "fc = 1/(2piRC) = 9.75 KHz" (at 78.74 29.21 0)
+  (text "fc = 1/(2piRC) = 10.6 KHz" (at 78.74 29.21 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2782457b-5107-473a-b6db-62b35dd2f245)
   )

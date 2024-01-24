@@ -93,13 +93,12 @@ _GREAT QUESTION, LARRY!_
 **Record the rise time of the current waveform:**  
 300ms  
 
-
 **What lamp characteristic causes the current waveform to take this shape?**  
 _when the filament in the lamp heats up, it increases in resistance, causing less current to flow through_  
 **Calculate the required power rating of the resistor for continuous, steady-state operation.**  
 _270mA through resistor, 6V drop means a power of 1.65W._  
 **In your circuit, what is the resistor's maximum instantaneous power dissipation and when does it occur? Do you think the resistor you have chosen would provide reliable long-term operation?**  
-_Instantaneous power dissipation occurs right when power is applied, where the resistor sees 15V instead of 6V and dissapates 4W. The resistor we've chosen will not provide reliable long-term operation._ 
+_Instantaneous power dissipation occurs right when power is applied, where the resistor sees 15V instead of 6V and dissapates 4W. The resistor we've chosen will not provide reliable long-term operation._  
 
 ## Q5 ##
 
@@ -110,17 +109,13 @@ Figure [x]: Voltage divider schematic
 
 ## Q6 ##
 
-Center frequency is 10 kHz.
+_Our filter's cutoff frequency is 10.6 KHz._
 
-We chose our resistor to be **_because_**.
+_We chose a 6.8k resistor in order to prevent loading the generator more than 1%._  
 
-We then chose our capacitor to be **_because_**.
+_We then chose a 2.2nF capacitor to achieve a cutoff frequency close to 10KHz._
 
 Figure [x]: Schematic and plots for your Saturday Schematic.
-
-Figure [x]: Breadboard your LP filter
-
-Figure [x]: Time-domain check of LPF
 
 Figure [x]: Bode Plot of LPF
 
@@ -131,25 +126,24 @@ Figure [x]: RC Band Pass Schematic
 ## Q7a ##
 
 **Using the simulated frequency-domain plot, determine the center-frequency of the bandpass filter.**  
-_GREAT QUESTION, LARRY!_
+_The simulated center frequency is 3.5 KHz._
 
 **Calculate and record the Q of the filter.**  
-_GREAT QUESTION, LARRY!_
+_Q = Fc/BW = 3.5KHz/(10KHz - 1KHz) = 0.4_  
 
 ## Q7b ##
 
 **Does it matter which filter, the low-pass or the high-pass, is placed first in your circuit? Investigate this with CircuitLab and explain.**  
-_GREAT QUESTION, LARRY!_
+_Placing the high-pass filter first attenuates the signal significantly more due to the increase in impedance (to prevent loading the high-pass stage) leading to higher resistive losses in the low-pass filter stage._
 
 ## Q7c ##
 
-Figure [x]: Time domain check of RC Bandpass
 Figure [x]: Bode Plot of RC Bandpass
 
 ## Q7d ##
 
 **How close did your breadboard match the simulated results? Record your observations.**  
-_GREAT QUESTION, LARRY!_
+_Our breadboarded filter matched the simulated results very closely until the frequency exceeded 1MHz, at which point the ESR of the capacitors led to an increase in amplitude and a deviation from -90 degrees._
 
 ## Q8 ##
 
@@ -169,8 +163,6 @@ _GREAT QUESTION, LARRY!_
 
 **Breadboard your circuit. After performing a quick time-domain check with the oscilloscope (input versus output), perform a Frequency Domain Plot of your breadboarded circuit using the Frequency Response  Analysis (Bode Plot) feature of your oscilloscope.  Record the Bode plot.**  
 
-Figure [x]: Picture of Setup  
-Figure [x]: Time Domain Output of Scope  
 Figure [x]: Bode Plot Output of Scope  
 
 ## Q8c ##
