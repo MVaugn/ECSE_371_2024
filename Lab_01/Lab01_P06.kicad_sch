@@ -6,8 +6,8 @@
 
   (title_block
     (title "Single-Stage Passive Lowpass Filter")
-    (date "2024-01-19")
-    (rev "0")
+    (date "2024-01-25")
+    (rev "1")
     (company "Jim Horwitz & Mark Vaughn, Jork Incorporated")
   )
 

@@ -31,6 +31,23 @@
     )
   )
 
+  (sheet (at 127 63.5) (size 38.1 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2244a9a7-5334-4dfc-88c2-63423af6a609)
+    (property "Sheetname" "Problem 10" (at 127 62.7884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Lab01_P10.kicad_sch" (at 127 89.4846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Lab01"
+        (path "/f5e37932-d66b-45bd-afc2-f24a1a74700d" (page "6"))
+      )
+    )
+  )
+
   (sheet (at 38.1 139.7) (size 38.1 25.4) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))

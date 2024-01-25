@@ -366,7 +366,7 @@
     (property "Reference" "R81" (at 76.2 31.75 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "6.8k" (at 76.2 34.29 90)
+    (property "Value" "68k" (at 76.2 34.29 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 76.2 39.878 90)
