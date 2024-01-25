@@ -5,7 +5,10 @@
   (paper "User" 177.8 127)
 
   (title_block
+    (title "Parallel Resonant Filter")
     (date "2024-01-24")
+    (rev "0")
+    (company "Jim Horwitz & Mark Vaughn, Jork Incorporated")
   )
 
   (lib_symbols
