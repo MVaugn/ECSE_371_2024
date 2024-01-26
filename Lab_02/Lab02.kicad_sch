@@ -25,14 +25,14 @@
     )
   )
 
-  (sheet (at 40.64 35.56) (size 55.88 39.37) (fields_autoplaced)
+  (sheet (at 87.63 55.88) (size 55.88 39.37) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 178c1c27-5979-48f5-9fb9-cd6c88927189)
-    (property "Sheetname" "SS_Q4" (at 40.64 34.8484 0)
+    (property "Sheetname" "SS_Q4" (at 87.63 55.1684 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "SS_Q4.kicad_sch" (at 40.64 75.5146 0)
+    (property "Sheetfile" "SS_Q4.kicad_sch" (at 87.63 95.8346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
