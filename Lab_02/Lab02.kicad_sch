@@ -1,5 +1,48 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid b848c9df-85a0-48ab-ac89-72f46cf8e040)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 370.84 167.64) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0c32617f-16c6-412a-8d42-ebc30dff7b24)
+    (property "Sheetname" "SS_Q4" (at 370.84 166.9284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "SS_Q4.kicad_sch" (at 370.84 172.0346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Lab02"
+        (path "/b848c9df-85a0-48ab-ac89-72f46cf8e040" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 40.64 35.56) (size 55.88 39.37) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 178c1c27-5979-48f5-9fb9-cd6c88927189)
+    (property "Sheetname" "SS_Q4" (at 40.64 34.8484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "SS_Q4.kicad_sch" (at 40.64 75.5146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Lab02"
+        (path "/b848c9df-85a0-48ab-ac89-72f46cf8e040" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )
