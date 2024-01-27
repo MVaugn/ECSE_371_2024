@@ -25,7 +25,7 @@
     )
   )
 
-  (sheet (at 170.18 55.88) (size 59.69 38.1) (fields_autoplaced)
+  (sheet (at 170.18 55.88) (size 55.88 38.1) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 25c5f3df-3178-4726-8206-12c5c00d01f9)
@@ -38,6 +38,40 @@
     (instances
       (project "Lab02"
         (path "/b848c9df-85a0-48ab-ac89-72f46cf8e040" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 170.18 100.33) (size 55.88 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 384904b1-14f9-4093-890f-f30dac0f087e)
+    (property "Sheetname" "Problem 1" (at 170.18 99.6184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Problem_1.kicad_sch" (at 170.18 133.9346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Lab02"
+        (path "/b848c9df-85a0-48ab-ac89-72f46cf8e040" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 87.63 100.33) (size 55.88 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a7c0300b-f37e-4c7e-8b91-7301a0d51aa2)
+    (property "Sheetname" "Problem 2" (at 87.63 99.6184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Problem_2.kicad_sch" (at 87.63 133.9346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Lab02"
+        (path "/b848c9df-85a0-48ab-ac89-72f46cf8e040" (page "4"))
       )
     )
   )
