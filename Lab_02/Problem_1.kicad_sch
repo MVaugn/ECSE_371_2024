@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (company "Jim Horwitz & Mark Vaughn, Jork Incorporated")
+  )
+
   (lib_symbols
     (symbol "Amplifier_Operational:LM741" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 6.35 0)
@@ -344,14 +348,14 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm741.pdf" (at 64.77 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "7" (uuid cda691cc-3e3b-4ab0-bc65-515e6c3b33f6))
     (pin "1" (uuid 037a0325-893c-41e7-99d7-a4550fb80513))
+    (pin "2" (uuid 2b99d15f-cbc6-4daa-af39-cd3cc57d0664))
+    (pin "3" (uuid bd40b05d-9505-47a7-9555-c3fc1517a506))
+    (pin "4" (uuid 7314f5f5-0ecf-4203-8114-ebd4bffe5b06))
     (pin "5" (uuid 84ad32e6-ff20-45fd-8ecf-c94c08a1e10e))
     (pin "6" (uuid dbe4a0d2-e4f9-4c08-b13a-9a7d99d2eebd))
+    (pin "7" (uuid cda691cc-3e3b-4ab0-bc65-515e6c3b33f6))
     (pin "8" (uuid ec35345d-7258-42c4-8dbd-1e6e5e6004b7))
-    (pin "2" (uuid 2b99d15f-cbc6-4daa-af39-cd3cc57d0664))
-    (pin "4" (uuid 7314f5f5-0ecf-4203-8114-ebd4bffe5b06))
-    (pin "3" (uuid bd40b05d-9505-47a7-9555-c3fc1517a506))
     (instances
       (project "Lab02"
         (path "/b848c9df-85a0-48ab-ac89-72f46cf8e040/384904b1-14f9-4093-890f-f30dac0f087e"
