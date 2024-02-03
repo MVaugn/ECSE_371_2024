@@ -8,6 +8,26 @@
   )
 
 
+  (sheet (at 158.75 104.14) (size 41.91 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c26a7868-5fdf-4420-ad28-5602752645e3)
+    (property "Sheetname" "Part 3" (at 158.75 103.4284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "part3.kicad_sch" (at 158.75 130.1246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 158.75 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Lab03"
+        (path "/0f3a9aa4-582a-427a-a342-2cdf273d26d7" (page "4"))
+      )
+    )
+  )
+
   (sheet (at 104.14 64.77) (size 43.18 26.67) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
