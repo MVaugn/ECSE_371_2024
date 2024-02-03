@@ -20,12 +20,29 @@
     )
     (instances
       (project "Lab03"
+        (path "/0f3a9aa4-582a-427a-a342-2cdf273d26d7" (page "1"))
+      )
+    )
+  )
+
+  (sheet (at 104.14 104.14) (size 43.18 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f6b0de55-6a15-45d1-9616-af32507e700a)
+    (property "Sheetname" "Part 2" (at 104.14 103.4284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "L03P02.kicad_sch" (at 104.14 130.1246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Lab03"
         (path "/0f3a9aa4-582a-427a-a342-2cdf273d26d7" (page "2"))
       )
     )
   )
 
   (sheet_instances
-    (path "/" (page "1"))
+    (path "/" (page "0"))
   )
 )
