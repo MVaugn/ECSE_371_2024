@@ -600,8 +600,8 @@
     (property "Datasheet" "~" (at 153.67 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid a8d42bb4-503b-4477-80b3-07f016928628))
     (pin "1" (uuid ca1dc68d-acd8-4ac7-adb2-bb0f51fd1716))
+    (pin "2" (uuid a8d42bb4-503b-4477-80b3-07f016928628))
     (instances
       (project "Lab03"
         (path "/0f3a9aa4-582a-427a-a342-2cdf273d26d7/efced3a7-3a3b-4a68-adb6-f42376b52d74"
@@ -856,8 +856,8 @@
     (property "Datasheet" "~" (at 168.91 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid ac46394e-da30-4187-aea8-1a7f8c973672))
     (pin "1" (uuid cc01281c-aa97-4688-bef7-50eea24f7fcb))
+    (pin "2" (uuid ac46394e-da30-4187-aea8-1a7f8c973672))
     (instances
       (project "Lab03"
         (path "/0f3a9aa4-582a-427a-a342-2cdf273d26d7/efced3a7-3a3b-4a68-adb6-f42376b52d74"
