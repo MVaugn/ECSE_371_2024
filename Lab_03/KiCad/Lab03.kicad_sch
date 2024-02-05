@@ -8,6 +8,23 @@
   )
 
 
+  (sheet (at 22.86 152.4) (size 63.5 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid bf221eab-dd66-43e5-90b8-ef506a8d9388)
+    (property "Sheetname" "Extras" (at 22.86 151.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "L03_Extras.kicad_sch" (at 22.86 189.8146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Lab03"
+        (path "/0f3a9aa4-582a-427a-a342-2cdf273d26d7" (page "5"))
+      )
+    )
+  )
+
   (sheet (at 158.75 104.14) (size 41.91 25.4) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
@@ -23,7 +40,7 @@
     )
     (instances
       (project "Lab03"
-        (path "/0f3a9aa4-582a-427a-a342-2cdf273d26d7" (page "4"))
+        (path "/0f3a9aa4-582a-427a-a342-2cdf273d26d7" (page "3"))
       )
     )
   )
