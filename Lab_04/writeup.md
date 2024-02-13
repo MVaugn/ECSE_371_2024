@@ -29,3 +29,23 @@
 
 ![](img/Lab04-P2-560R1.png)
 **DC Output Ripple Voltage (FL)** 25.6VDC with 3.4Vpkpk ripple
+
+### Part 3
+
+![](img/Lab4-P3FL.png)
+![](img/Lab4-P3NL.png)
+
+**Calculate the maximum worse-case power dissipated in the Zener. Using the power derating curve from the data sheet, what is the maximum allowable operating ambient temperature for your circuit (under both load conditions, NL and FL)?** 876mW worst case dissipation. Roughly 77 deg. C worst case, 
+
+**Change the input voltage to 15.0 VDC; record the output voltage of your circuit at no-load and full load. What is happening? Record your conclusion.**
+![](img/Lab4-P3-15NL.png)
+![](img/Lab4-P3-15FL.png)
+
+At 15V, we don't have enough current going through the zener and we have hit the knee, indicated by the ~3v drop on the output.
+
+**Change the value of resistor R1 so the circuit stays in regulation at full load when the input is 15.0VDC. Record the output voltage of the new circuit at no-load and full load. Calculate the maximum worse-case power dissipated in the Zener. Using the power derating curve from the data sheet, what is the maximum allowable operating ambient temperature for your circuit (under both load conditions, NL and FL)?** 1.08W worst case dissipation, . Barely works at limit; 50 deg C max unloaded. Loaded, 
+
+
+**Use measurements of the circuit in B to determine the series resistance of the Zener.**
+
+### Part 4
