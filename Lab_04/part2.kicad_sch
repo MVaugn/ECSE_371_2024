@@ -409,8 +409,8 @@
     (property "Sim.Device" "V" (at 116.84 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "2" (uuid d5a248c0-c482-4eba-9362-67d4a1b9afa5))
     (pin "1" (uuid a79e2f4e-1a5e-4e38-b51c-3277358153fa))
+    (pin "2" (uuid d5a248c0-c482-4eba-9362-67d4a1b9afa5))
     (instances
       (project "Lab04"
         (path "/d11ac0ed-f6df-48cb-8771-3e619bea6e62/c9eb5a82-89ca-4dc5-a0ee-af802e2977a4"
