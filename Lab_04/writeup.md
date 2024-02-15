@@ -35,7 +35,7 @@
 ![](img/Lab4-P3FL.png)
 ![](img/Lab4-P3NL.png)
 
-**Calculate the maximum worse-case power dissipated in the Zener. Using the power derating curve from the data sheet, what is the maximum allowable operating ambient temperature for your circuit (under both load conditions, NL and FL)?** 876mW worst case dissipation. Roughly 77 deg. C worst case, 
+**Calculate the maximum worse-case power dissipated in the Zener. Using the power derating curve from the data sheet, what is the maximum allowable operating ambient temperature for your circuit (under both load conditions, NL and FL)?** 876mW worst case dissipation, 84mW best case. Roughly 77 deg. C worst case, 165 deg. C best case. 
 
 **Change the input voltage to 15.0 VDC; record the output voltage of your circuit at no-load and full load. What is happening? Record your conclusion.**
 ![](img/Lab4-P3-15NL.png)
@@ -43,9 +43,22 @@
 
 At 15V, we don't have enough current going through the zener and we have hit the knee, indicated by the ~3v drop on the output.
 
-**Change the value of resistor R1 so the circuit stays in regulation at full load when the input is 15.0VDC. Record the output voltage of the new circuit at no-load and full load. Calculate the maximum worse-case power dissipated in the Zener. Using the power derating curve from the data sheet, what is the maximum allowable operating ambient temperature for your circuit (under both load conditions, NL and FL)?** 1.08W worst case dissipation, . Barely works at limit; 50 deg C max unloaded. Loaded, 
+**Change the value of resistor R1 so the circuit stays in regulation at full load when the input is 15.0VDC. Record the output voltage of the new circuit at no-load and full load. Calculate the maximum worse-case power dissipated in the Zener. Using the power derating curve from the data sheet, what is the maximum allowable operating ambient temperature for your circuit (under both load conditions, NL and FL)?** 1.04W worst case dissipation, 276 best case. Barely works at limit; 50 deg C max unloaded. Loaded, 120 deg. C
+![](img/Lab4-P3-15NL33.png)
+![](img/Lab4-P3-15FL33.png)
+
 
 
 **Use measurements of the circuit in B to determine the series resistance of the Zener.**
+11.579V dropped / 26mA through zener = 445 $\Omega$
 
 ### Part 4
+
+### Part 5
+**With each of these three rectifier configurations (1/2 wave, full wave, and doubler), what is the rated reverse voltage requirement and rated current requirement for each of the rectifier diodes?**
+
+Half wave has a reverse voltage rated at the negative peak supply, current requirement for the inrush current required to recharge the filter cap.
+
+full wave has a reverse voltage rated at the negative peak supply. current requirement is half the inrush current required to recharge the filter cap.
+
+For the voltage doubler, both diodes have to be rated at double the peak of the input signal. current requirement is the inrush current required to recharge the filter cap.
