@@ -1,0 +1,24 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 50b2da2c-636c-44d7-8d95-faae8137180e)
+
+  (paper "A4")
+
+  (title_block
+    (company "ZAM Industries, LLC")
+    (comment 1 "Drawn by: Mark Vaughn")
+  )
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "Waveform_In" (shape input) (at 53.34 62.23 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid a7adcd58-4219-4fbe-a5f8-f629163bbcc1)
+  )
+  (hierarchical_label "Waveform_Out" (shape output) (at 187.96 64.77 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid c022096a-767b-479c-ac53-40fd5ac096b9)
+  )
+)

@@ -1,0 +1,15 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid d1c194e0-ba6d-4a2f-975d-d3b4e4230a09)
+
+  (paper "A4")
+
+  (title_block
+    (company "ZAM Industries, LLC")
+    (comment 1 "Drawn by: Mark Vaughn")
+  )
+
+  (lib_symbols
+  )
+
+)
