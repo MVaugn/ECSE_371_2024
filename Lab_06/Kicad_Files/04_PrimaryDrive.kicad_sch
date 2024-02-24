@@ -13,12 +13,12 @@
   )
 
 
-  (hierarchical_label "Waveform_In" (shape input) (at 53.34 62.23 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
+  (hierarchical_label "WAVEFORM_IN" (shape input) (at 53.34 62.23 180) (fields_autoplaced)
+    (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify right))
     (uuid a7adcd58-4219-4fbe-a5f8-f629163bbcc1)
   )
-  (hierarchical_label "Waveform_Out" (shape output) (at 187.96 64.77 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
+  (hierarchical_label "WAVEFORM_OUT" (shape output) (at 187.96 64.77 0) (fields_autoplaced)
+    (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left))
     (uuid c022096a-767b-479c-ac53-40fd5ac096b9)
   )
 )

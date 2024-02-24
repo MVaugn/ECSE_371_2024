@@ -12,4 +12,17 @@
   (lib_symbols
   )
 
+
+  (hierarchical_label "TRIANGLE_IN" (shape input) (at 50.8 76.2 180) (fields_autoplaced)
+    (effects (font (size 2.54 2.54) bold) (justify right))
+    (uuid 35427991-711e-42a6-a763-c717c7b6d05f)
+  )
+  (hierarchical_label "GATE_IN" (shape input) (at 50.8 127 180) (fields_autoplaced)
+    (effects (font (size 2.54 2.54) bold) (justify right))
+    (uuid 80aadd2c-ce66-44b7-8ce8-b87c88bde10c)
+  )
+  (hierarchical_label "PULSE_OUT" (shape output) (at 215.9 76.2 0) (fields_autoplaced)
+    (effects (font (size 2.54 2.54) bold) (justify left))
+    (uuid 9b7e1d9a-f2c6-4006-955e-3a95de2ad8a2)
+  )
 )
