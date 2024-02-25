@@ -670,9 +670,6 @@
         (path "/37d0ecfa-1973-4a3c-8fc1-f7066c204731"
           (reference "#PWR02") (unit 1)
         )
-        (path "/37d0ecfa-1973-4a3c-8fc1-f7066c204731/5ba37dbd-c8bd-4103-9815-19e4d3258fca"
-          (reference "#PWR0206") (unit 1)
-        )
         (path "/37d0ecfa-1973-4a3c-8fc1-f7066c204731/38fa6eb6-6b75-4a2f-a07b-650c2dba198f"
           (reference "#PWR0409") (unit 1)
         )
@@ -712,9 +709,6 @@
     (pin "3" (uuid c6b185d6-4a81-4eb7-acf9-9c800be328a4))
     (instances
       (project "Lab06"
-        (path "/37d0ecfa-1973-4a3c-8fc1-f7066c204731/5ba37dbd-c8bd-4103-9815-19e4d3258fca"
-          (reference "Q201") (unit 1)
-        )
         (path "/37d0ecfa-1973-4a3c-8fc1-f7066c204731/38fa6eb6-6b75-4a2f-a07b-650c2dba198f"
           (reference "Q401") (unit 1)
         )
@@ -796,9 +790,6 @@
     (pin "3" (uuid db2e4c28-6bd5-45cb-b98b-598eb47ea33d))
     (instances
       (project "Lab06"
-        (path "/37d0ecfa-1973-4a3c-8fc1-f7066c204731/5ba37dbd-c8bd-4103-9815-19e4d3258fca"
-          (reference "RV201") (unit 1)
-        )
         (path "/37d0ecfa-1973-4a3c-8fc1-f7066c204731/38fa6eb6-6b75-4a2f-a07b-650c2dba198f"
           (reference "RV403") (unit 1)
         )
@@ -832,9 +823,6 @@
       (project "Lab06"
         (path "/37d0ecfa-1973-4a3c-8fc1-f7066c204731"
           (reference "#PWR01") (unit 1)
-        )
-        (path "/37d0ecfa-1973-4a3c-8fc1-f7066c204731/5ba37dbd-c8bd-4103-9815-19e4d3258fca"
-          (reference "#PWR0205") (unit 1)
         )
         (path "/37d0ecfa-1973-4a3c-8fc1-f7066c204731/38fa6eb6-6b75-4a2f-a07b-650c2dba198f"
           (reference "#PWR0408") (unit 1)
@@ -944,9 +932,6 @@
         (path "/37d0ecfa-1973-4a3c-8fc1-f7066c204731"
           (reference "#PWR01") (unit 1)
         )
-        (path "/37d0ecfa-1973-4a3c-8fc1-f7066c204731/5ba37dbd-c8bd-4103-9815-19e4d3258fca"
-          (reference "#PWR0201") (unit 1)
-        )
         (path "/37d0ecfa-1973-4a3c-8fc1-f7066c204731/59e13362-95ce-402a-a747-b60e6dc95bbe"
           (reference "#PWR0601") (unit 1)
         )
@@ -983,9 +968,6 @@
     (pin "3" (uuid bc1e28e1-66bc-4e7d-8ff9-0abdcd2e32ee))
     (instances
       (project "Lab06"
-        (path "/37d0ecfa-1973-4a3c-8fc1-f7066c204731/5ba37dbd-c8bd-4103-9815-19e4d3258fca"
-          (reference "Q202") (unit 1)
-        )
         (path "/37d0ecfa-1973-4a3c-8fc1-f7066c204731/38fa6eb6-6b75-4a2f-a07b-650c2dba198f"
           (reference "Q402") (unit 1)
         )

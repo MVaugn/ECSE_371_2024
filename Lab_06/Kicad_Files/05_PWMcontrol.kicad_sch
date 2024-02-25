@@ -481,9 +481,6 @@
         (path "/37d0ecfa-1973-4a3c-8fc1-f7066c204731"
           (reference "#PWR01") (unit 1)
         )
-        (path "/37d0ecfa-1973-4a3c-8fc1-f7066c204731/5ba37dbd-c8bd-4103-9815-19e4d3258fca"
-          (reference "#PWR0209") (unit 1)
-        )
         (path "/37d0ecfa-1973-4a3c-8fc1-f7066c204731/5696cdf2-85d1-4ad2-b426-b55b83f99080"
           (reference "#PWR0501") (unit 1)
         )
@@ -511,9 +508,6 @@
     (pin "3" (uuid 501a9647-354e-4b5a-8f5a-8a3bf07938be))
     (instances
       (project "Lab06"
-        (path "/37d0ecfa-1973-4a3c-8fc1-f7066c204731/5ba37dbd-c8bd-4103-9815-19e4d3258fca"
-          (reference "RV201") (unit 1)
-        )
         (path "/37d0ecfa-1973-4a3c-8fc1-f7066c204731/38fa6eb6-6b75-4a2f-a07b-650c2dba198f"
           (reference "RV403") (unit 1)
         )
@@ -542,9 +536,6 @@
     (pin "1" (uuid 07e29924-66f9-4e9f-bc17-79d2664fbd11))
     (instances
       (project "Lab06"
-        (path "/37d0ecfa-1973-4a3c-8fc1-f7066c204731/5ba37dbd-c8bd-4103-9815-19e4d3258fca"
-          (reference "#PWR0213") (unit 1)
-        )
         (path "/37d0ecfa-1973-4a3c-8fc1-f7066c204731/5696cdf2-85d1-4ad2-b426-b55b83f99080"
           (reference "#PWR0502") (unit 1)
         )
@@ -605,9 +596,6 @@
         (path "/37d0ecfa-1973-4a3c-8fc1-f7066c204731"
           (reference "#PWR01") (unit 1)
         )
-        (path "/37d0ecfa-1973-4a3c-8fc1-f7066c204731/5ba37dbd-c8bd-4103-9815-19e4d3258fca"
-          (reference "#PWR0209") (unit 1)
-        )
         (path "/37d0ecfa-1973-4a3c-8fc1-f7066c204731/5696cdf2-85d1-4ad2-b426-b55b83f99080"
           (reference "#PWR0503") (unit 1)
         )
@@ -659,9 +647,6 @@
     (pin "1" (uuid 8e808550-5b54-4c16-ada1-c27e445a9f69))
     (instances
       (project "Lab06"
-        (path "/37d0ecfa-1973-4a3c-8fc1-f7066c204731/5ba37dbd-c8bd-4103-9815-19e4d3258fca"
-          (reference "#PWR0204") (unit 1)
-        )
         (path "/37d0ecfa-1973-4a3c-8fc1-f7066c204731/38fa6eb6-6b75-4a2f-a07b-650c2dba198f"
           (reference "#PWR0406") (unit 1)
         )

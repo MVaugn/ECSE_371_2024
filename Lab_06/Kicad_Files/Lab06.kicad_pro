@@ -334,26 +334,6 @@
     [
       "37d0ecfa-1973-4a3c-8fc1-f7066c204731",
       ""
-    ],
-    [
-      "5ba37dbd-c8bd-4103-9815-19e4d3258fca",
-      "Square and Triangle Oscillator"
-    ],
-    [
-      "992af115-f2cd-423f-adc5-3d2d5603cc4b",
-      "Sinewave Shaper"
-    ],
-    [
-      "38fa6eb6-6b75-4a2f-a07b-650c2dba198f",
-      "Primary Drive Circuitry"
-    ],
-    [
-      "5696cdf2-85d1-4ad2-b426-b55b83f99080",
-      "Pulse Width Control Circuitry"
-    ],
-    [
-      "59e13362-95ce-402a-a747-b60e6dc95bbe",
-      "Pulse Output Drive Circuitry"
     ]
   ],
   "text_variables": {}
