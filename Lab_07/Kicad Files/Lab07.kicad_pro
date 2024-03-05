@@ -244,7 +244,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "LarryLab"
+    ]
   },
   "meta": {
     "filename": "Lab07.kicad_pro",
@@ -312,8 +314,16 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
-    "plot_directory": "./mav86_Lab07SaturdaySchematic.pdf",
+    "plot_directory": "C:/Users/v_mar/Documents/GitHub/ECSE_371_2024/Lab_07/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
