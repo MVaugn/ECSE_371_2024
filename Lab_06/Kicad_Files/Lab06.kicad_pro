@@ -321,7 +321,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "D:/",
+    "plot_directory": "C:/Users/v_mar/Documents/GitHub/ECSE_371_2024/Lab_06/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
