@@ -326,6 +326,18 @@
     [
       "1013cde2-6a46-4832-9725-5ce4a6675ae4",
       ""
+    ],
+    [
+      "fd59c375-82a5-45dd-a940-c02661783ef0",
+      "Receiver Timing Diagram"
+    ],
+    [
+      "6e93bc76-6827-4e8b-b951-22e40d3757cc",
+      "System Block Diagram"
+    ],
+    [
+      "e09c2ab4-0b5c-4986-9747-ae5281ef274c",
+      "Full Schematic"
     ]
   ],
   "text_variables": {}
