@@ -1,0 +1,9 @@
+* TLV271 Quad 16V 3Mhz Rail-to-Rail Op-Amp
+* file name: TLV274.lib
+.subckt TLV274 1out 1in- 1in+ vdd 2in+ 2in- 2out 3out 3in- 3in+ gnd 4in+ 4in- 4out
+.include TLV271.LIB
+XU1A 1in+ 1in- vdd gnd 1out TLV271
+XU1B 2in+ 2in- vdd gnd 2out TLV271
+XU1C 3in+ 3in- vdd gnd 3out TLV271
+XU1D 4in+ 4in- vdd gnd 4out TLV271
+.ends
