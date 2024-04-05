@@ -1,0 +1,7 @@
+* TLV272 Dual 16V 3Mhz Rail-to-Rail Op-Amps
+* file name: TLV272.lib
+.subckt TLV272 1out 1in- 1in+ gnd 2in+ 2in- 2out vdd
+.include TLV271.LIB
+XU1A 1in+ 1in- vdd gnd 1out TLV271
+XU1B 2in+ 2in- vdd gnd 2out TLV271
+.ends
