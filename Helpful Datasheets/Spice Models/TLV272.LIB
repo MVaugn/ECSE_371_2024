@@ -2,6 +2,6 @@
 * file name: TLV272.lib
 .subckt TLV272 1out 1in- 1in+ gnd 2in+ 2in- 2out vdd
 .include TLV271.LIB
-XU1A 1in+ 1in- vdd gnd 1out TLV271
-XU1B 2in+ 2in- vdd gnd 2out TLV271
+XU1A 1in+ 1in- vdd gnd 1out amp_tlv27x_highVdd
+XU1B 2in+ 2in- vdd gnd 2out amp_tlv27x_highVdd
 .ends
