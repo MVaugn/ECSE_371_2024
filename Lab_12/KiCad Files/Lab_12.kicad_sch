@@ -6,8 +6,8 @@
 	(paper "USLegal")
 	(title_block
 		(title "Laser-Guided Tracking Servo")
-		(date "2024-05-06")
-		(rev "1")
+		(date "2024-05-07")
+		(rev "2")
 		(company "ZAM Industries, LLC")
 		(comment 1 "Drawn by: Mark Vaughn")
 	)
@@ -5857,16 +5857,12 @@
 		(uuid "0fb3c4e3-32dc-4365-b689-a8cca22cab9a")
 	)
 	(no_connect
-		(at 97.79 149.86)
+		(at 76.2 161.29)
 		(uuid "11b27724-7f4f-41df-861b-7ae95835832c")
 	)
 	(no_connect
 		(at 102.87 121.92)
 		(uuid "15572014-2802-4829-9fa2-08b419f696e0")
-	)
-	(no_connect
-		(at 68.58 134.62)
-		(uuid "1e69ab28-0aab-433d-b659-2117826e994f")
 	)
 	(no_connect
 		(at 175.26 44.45)
@@ -5877,7 +5873,7 @@
 		(uuid "28e5ac5f-c6ea-415e-81a2-b47b5ba2dfc9")
 	)
 	(no_connect
-		(at 67.31 140.97)
+		(at 69.85 143.51)
 		(uuid "2aad2dae-f831-4fc7-9a44-9f8b8e6ec9f8")
 	)
 	(no_connect
@@ -5889,10 +5885,6 @@
 		(uuid "578466c0-afcd-48d6-97bd-9514eddc68cf")
 	)
 	(no_connect
-		(at 82.55 140.97)
-		(uuid "5d0b6c96-d208-4a36-8501-d0a798f98be5")
-	)
-	(no_connect
 		(at 128.27 114.3)
 		(uuid "61d195e3-9991-4174-ab01-d5fe3268e780")
 	)
@@ -5901,7 +5893,7 @@
 		(uuid "703a57db-f7e9-4e13-a23d-e2ed11b33c11")
 	)
 	(no_connect
-		(at 97.79 144.78)
+		(at 76.2 156.21)
 		(uuid "7367e807-25cb-4c04-b826-ba0169e5b120")
 	)
 	(no_connect
@@ -5913,15 +5905,11 @@
 		(uuid "986bb45b-9170-4d34-b8f3-0a69171a12ab")
 	)
 	(no_connect
-		(at 63.5 144.78)
-		(uuid "9debf91d-be2a-453c-9e76-47f86b6da2d9")
-	)
-	(no_connect
 		(at 102.87 114.3)
 		(uuid "a100f4d6-4fe3-4e7e-98e0-b225e9af6fae")
 	)
 	(no_connect
-		(at 82.55 147.32)
+		(at 60.96 158.75)
 		(uuid "a14bce7a-87a0-4992-9e5e-4449fb2aa612")
 	)
 	(no_connect
@@ -6420,6 +6408,16 @@
 		)
 		(uuid "24b3f0da-cdfa-4fae-a7aa-81587323256d")
 	)
+	(wire
+		(pts
+			(xy 63.5 144.78) (xy 64.77 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2543101b-aa5e-4d7d-b10e-05c0ef556a15")
+	)
 	(polyline
 		(pts
 			(xy 90.17 119.38) (xy 86.995 122.555)
@@ -6749,6 +6747,16 @@
 			(type default)
 		)
 		(uuid "3d354bb3-0f3f-4299-9cf0-639bfc90a3a7")
+	)
+	(wire
+		(pts
+			(xy 64.77 144.78) (xy 64.77 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d3fbe63-97ca-42ec-86c5-e635673dea6a")
 	)
 	(wire
 		(pts
@@ -7542,6 +7550,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 134.62) (xy 69.85 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73af5be9-d234-44b5-a010-7f04b08d6ad2")
+	)
+	(wire
+		(pts
 			(xy 115.57 97.79) (xy 115.57 99.06)
 		)
 		(stroke
@@ -7569,6 +7587,16 @@
 			(type default)
 		)
 		(uuid "763f5ca2-1d6a-461c-a4db-298291376e2d")
+	)
+	(wire
+		(pts
+			(xy 68.58 134.62) (xy 69.85 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "764c2203-30be-47b5-87ea-c041c1c6f833")
 	)
 	(polyline
 		(pts
@@ -7939,6 +7967,16 @@
 			(type default)
 		)
 		(uuid "913c3e2c-9b08-4708-8485-6ac422c415c6")
+	)
+	(wire
+		(pts
+			(xy 85.09 143.51) (xy 86.36 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "920a92e5-a5b9-4467-bc86-ed6fd0f1d27f")
 	)
 	(wire
 		(pts
@@ -8529,6 +8567,16 @@
 			(type default)
 		)
 		(uuid "be0ed41b-007f-4860-962e-1a76f801b53d")
+	)
+	(wire
+		(pts
+			(xy 86.36 143.51) (xy 86.36 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf93206a-4494-4018-ba48-1f4f8d8016d1")
 	)
 	(wire
 		(pts
@@ -9867,7 +9915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 252.222 139.7 90)
 			(effects
 				(font
@@ -10023,6 +10071,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 64.77 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0efddecb-e1cf-4bc5-a63a-fc0143263a7b")
+		(property "Reference" "#PWR048"
+			(at 64.77 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.77 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 64.77 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c94548d7-f014-4e7f-a1ad-4a0cddc616a6")
+		)
+		(instances
+			(project "Lab_12"
+				(path "/beac1077-8441-4187-86ec-233e08279164"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 41.91 57.15 0)
 		(unit 1)
@@ -10116,7 +10229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 176.53 89.408 90)
 			(effects
 				(font
@@ -10225,6 +10338,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 69.85 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15422cef-f063-4406-8b98-e5891defb482")
+		(property "Reference" "#PWR049"
+			(at 69.85 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b312bce4-15f7-49b4-8860-8adbfd9187e5")
+		)
+		(instances
+			(project "Lab_12"
+				(path "/beac1077-8441-4187-86ec-233e08279164"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 228.6 133.35 0)
 		(unit 1)
@@ -10251,7 +10429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 226.822 133.35 90)
 			(effects
 				(font
@@ -10832,7 +11010,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
 			(at 234.95 146.812 90)
 			(effects
 				(font
@@ -11108,7 +11286,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 71.12 44.958 90)
 			(effects
 				(font
@@ -11918,7 +12096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D9.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P7.50mm"
 			(at 262.5852 113.03 0)
 			(effects
 				(font
@@ -13828,7 +14006,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 176.53 127.508 90)
 			(effects
 				(font
@@ -13941,7 +14119,7 @@
 		(lib_id "LarryLab:CD40106")
 		(at 55.88 144.78 0)
 		(mirror y)
-		(unit 3)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -14036,7 +14214,72 @@
 			(project "Lab_12"
 				(path "/beac1077-8441-4187-86ec-233e08279164"
 					(reference "U3")
-					(unit 3)
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89223975-c2f7-4f82-af4f-4eb48a2bafa8")
+		(property "Reference" "#PWR050"
+			(at 86.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44b662cd-9713-41b6-8ad3-d92e15edb2f5")
+		)
+		(instances
+			(project "Lab_12"
+				(path "/beac1077-8441-4187-86ec-233e08279164"
+					(reference "#PWR050")
+					(unit 1)
 				)
 			)
 		)
@@ -14654,7 +14897,7 @@
 	)
 	(symbol
 		(lib_id "LarryLab:CD40106")
-		(at 74.93 140.97 0)
+		(at 77.47 143.51 0)
 		(mirror y)
 		(unit 2)
 		(exclude_from_sim no)
@@ -14663,7 +14906,7 @@
 		(dnp no)
 		(uuid "929d3bc1-f78d-49b5-93b5-d9b5705c71e5")
 		(property "Reference" "U3"
-			(at 70.612 143.256 0)
+			(at 73.152 145.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14671,7 +14914,7 @@
 			)
 		)
 		(property "Value" "CD40106"
-			(at 70.612 145.796 0)
+			(at 73.152 148.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14679,7 +14922,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 77.47 140.97 0)
+			(at 80.01 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14688,7 +14931,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
-			(at 74.93 146.05 0)
+			(at 77.47 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14697,7 +14940,7 @@
 			)
 		)
 		(property "Description" "Hex Schmitt trigger inverter"
-			(at 74.93 140.97 0)
+			(at 77.47 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14937,7 +15180,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 156.21 103.378 90)
 			(effects
 				(font
@@ -15414,7 +15657,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
 			(at 71.12 55.118 90)
 			(effects
 				(font
@@ -15459,7 +15702,7 @@
 	(symbol
 		(lib_id "LarryLab:CD40106")
 		(at 256.54 59.69 0)
-		(unit 1)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -15554,7 +15797,7 @@
 			(project "Lab_12"
 				(path "/beac1077-8441-4187-86ec-233e08279164"
 					(reference "U3")
-					(unit 1)
+					(unit 3)
 				)
 			)
 		)
@@ -15830,7 +16073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 293.878 114.3 90)
 			(effects
 				(font
@@ -15970,7 +16213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal"
 			(at 226.06 111.252 90)
 			(effects
 				(font
@@ -16105,7 +16348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 119.888 53.34 90)
 			(effects
 				(font
@@ -16704,7 +16947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
 			(at 281.94 110.998 90)
 			(effects
 				(font
@@ -16906,7 +17149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
 			(at 273.05 61.468 90)
 			(effects
 				(font
@@ -17112,7 +17355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 211.328 114.3 90)
 			(effects
 				(font
@@ -18188,7 +18431,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
 			(at 109.22 75.438 90)
 			(effects
 				(font
@@ -18508,7 +18751,7 @@
 	)
 	(symbol
 		(lib_id "Comparator:LM339")
-		(at 90.17 147.32 180)
+		(at 68.58 158.75 180)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18516,7 +18759,7 @@
 		(dnp no)
 		(uuid "e66af8f1-c1eb-4bd4-9783-c57fa1bec2bc")
 		(property "Reference" "U4"
-			(at 87.376 150.876 0)
+			(at 65.786 162.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18524,7 +18767,7 @@
 			)
 		)
 		(property "Value" "LM339"
-			(at 87.376 153.416 0)
+			(at 65.786 164.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18532,7 +18775,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 91.44 149.86 0)
+			(at 69.85 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18541,7 +18784,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
-			(at 88.9 152.4 0)
+			(at 67.31 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18550,7 +18793,7 @@
 			)
 		)
 		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
-			(at 90.17 147.32 0)
+			(at 68.58 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18634,7 +18877,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_A-405_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp"
 			(at 269.24 101.6 0)
 			(effects
 				(font
@@ -18785,7 +19028,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 226.06 97.028 90)
 			(effects
 				(font
@@ -18989,7 +19232,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 176.53 108.458 90)
 			(effects
 				(font
@@ -19264,7 +19507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 301.498 107.95 90)
 			(effects
 				(font
