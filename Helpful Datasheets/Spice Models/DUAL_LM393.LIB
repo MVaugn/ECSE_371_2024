@@ -1,0 +1,7 @@
+* LM393 Dual General-Purpose Comparator
+* file name: DUAL_LM393.lib
+.subckt LM393 1out 1in- 1in+ vss 2in+ 2in- 2out vdd
+.include LM393.LIB
+XU1A 1in+ 1in- vdd vss 1out LM2903B
+XU1B 2in+ 2in- vdd vss 2out LM2903B
+.ends
