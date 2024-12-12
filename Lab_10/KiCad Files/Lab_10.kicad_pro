@@ -496,6 +496,9 @@
     "netclass_assignments": {
       "/Vs+": "Hi-Power",
       "/Vs-": "Hi-Power",
+      "Net-(D201-K)": "Hi-Power",
+      "Net-(D301-K)": "Hi-Power",
+      "PGND": "Hi-Power",
       "V_Supply": "Hi-Power"
     },
     "netclass_patterns": []
@@ -516,6 +519,7 @@
   },
   "schematic": {
     "annotate_start_num": 300,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
